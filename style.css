@@ -5,7 +5,7 @@
 section {
 	max-width: 1000px;
 	margin: auto;
-	height: 100vh;
+	/*min-height: 100vh;*/
 }
 h1,h3 {
 	font-family: 'Nerko One', cursive;

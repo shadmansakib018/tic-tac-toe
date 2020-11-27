@@ -49,7 +49,6 @@ const clicked = (event) => {
 		// setTimeout(()=>board.style.display = 'none',1000);
 		blockarr.forEach(square => square.removeEventListener("click",clicked,{once: true}));
 		h3.innerHTML=`\'${currplayer.sym}\' Won!! Play Again!`;
-		button.style.display = 'block';
 	}
 	else{
 		j=(j+1)%2;
