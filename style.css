@@ -1,0 +1,44 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+section {
+	max-width: 1000px;
+	margin: auto;
+	height: 100vh;
+}
+h1,h3 {
+	font-family: 'Nerko One', cursive;
+	font-size: 4rem;
+	text-align: center;
+	padding:  2rem 0;
+}
+h3 {
+	cursor: pointer;
+}
+.board {
+	margin: 1.6rem;
+	max-width: 360px;
+	margin: auto;
+}
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0;
+}
+p {
+	font-family: 'Nerko One', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.5rem;
+	max-width:120px;
+	height: 120px;
+	cursor: pointer;
+}
+.bb {
+	border-bottom: 5px solid black;
+}
+.br {
+	border-right: 5px solid black;
+}
