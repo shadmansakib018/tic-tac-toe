@@ -23,7 +23,7 @@ const checkIfWon = (player) => {
 		arr2.forEach(i=> blocks[i].style.color="red");
 		return true;
 	}
-	else if(arr2=(contains(0, 3, 6,arr) || contains(1, 4, 7,arr) || contains(2 , 5 , 8,arr))){
+	else if(arr2=(contains(0, 3, 6,arr) || contains(1, 4, 7,arr) || contains(2, 5, 8, arr))){
 		arr2.forEach(i=> blocks[i].style.color="red");
 		return true;
 	}
