@@ -40,7 +40,7 @@ const clicked = (event) => {
 	available--;
 	currplayer['spots'].push(parseInt(event.target.dataset.num));
 	event.target.innerHTML=currplayer.sym;
-	if(available < 0){
+	if(available === 0){
 		h3.innerHTML=`Its a Draw. Play Again!`;
 		//button.style.display = 'block';
 		blockarr.forEach(square => square.removeEventListener("click",clicked,{once: true}));
