@@ -2,13 +2,16 @@
 	padding: 0px;
 	margin: 0px;
 }
+body{
+	background-color: lightgoldenrodyellow;
+}
 section {
 	max-width: 1000px;
 	margin: auto;
 	/*min-height: 100vh;*/
 }
 h1,h3 {
-	font-family: 'Nerko One', cursive;
+	font-family: cursive;
 	font-size: 4rem;
 	text-align: center;
 	padding:  2rem 0;
